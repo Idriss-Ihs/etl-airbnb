@@ -1,0 +1,15 @@
+data_paths:
+  raw: "data/raw/"
+  interim: "data/interim/"
+  processed: "data/processed/"
+
+etl:
+  log_file: "etl_log.txt"
+  sample_size: 5000
+  output_format: "parquet"
+
+data_sources:
+  listings: "listings.csv"
+  reviews: "reviews.csv"
+  calendar: "calendar.csv"
+  neighbourhoods: "neighbourhoods.csv"

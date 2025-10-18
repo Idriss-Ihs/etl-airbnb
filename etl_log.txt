@@ -1,0 +1,8 @@
+2025-10-18 17:23:14 - INFO - Cleaning listings (36111 rows, 79 cols)
+2025-10-18 17:23:17 - INFO - listings cleaned \u2192 data\interim\listings_clean.csv
+2025-10-18 17:23:22 - INFO - Cleaning reviews (986597 rows, 6 cols)
+2025-10-18 17:23:33 - INFO - reviews cleaned \u2192 data\interim\reviews_clean.csv
+2025-10-18 17:23:44 - INFO - Cleaning calendar (13180517 rows, 7 cols)
+2025-10-18 17:24:11 - INFO - calendar cleaned \u2192 data\interim\calendar_clean.csv
+2025-10-18 17:24:11 - INFO - Cleaning neighbourhoods (230 rows, 2 cols)
+2025-10-18 17:24:12 - INFO - neighbourhoods cleaned \u2192 data\interim\neighbourhoods_clean.csv
