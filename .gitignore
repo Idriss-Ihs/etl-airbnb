@@ -8,7 +8,11 @@ Thumbs.db
 
 # data
 data/raw/*
+data/interim/*
+data/processed/*
 !data/raw/sample.csv
+!data/interim/sample.csv
+!data/processed/sample.csv
 
 # ML artifacts
 models/
