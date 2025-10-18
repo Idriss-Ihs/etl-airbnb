@@ -18,7 +18,7 @@ def merge_datasets():
     try:
         logger.info("Loading listings and reviews...")
         listings = pd.read_csv(interim_path / "listings_clean.csv",
-                               usecols=["id", "name", "neighbourhood", "price", "room_type"],
+                               usecols=["id", "name", "neighbourhood_cleansed", "price", "room_type"],
                                low_memory=False)
         reviews = pd.read_csv(interim_path / "reviews_clean.csv",
                               usecols=["listing_id", "date"],
